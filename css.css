@@ -1,0 +1,52 @@
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+
+
+input#inp {
+    background-color: rgb(164, 196, 206);
+}
+
+input#button {
+    color: rgb(76, 221, 221);
+    background-color: rgb(156, 147, 147);
+}
+
+div {
+    font-family: 'Pacifico', cursive;
+   
+}
+
+.hide {
+    visibility: hidden;
+    display:none;
+}
+
+.done{
+    visibility: visible;
+}
+
+#buk{
+    width: 100px;
+    
+
+}
+
+h1{
+    display: inline;
+    padding: 5px;
+
+}
+
+#kont{
+    border: outset;
+    background-color: blanchedalmond;
+}
+
+
