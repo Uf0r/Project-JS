@@ -96,6 +96,7 @@ button.addEventListener("click", function(e){
     var guess = input.value
     
     console.log(word)
+    console.log(longWord)
     input.focus()
     
     
