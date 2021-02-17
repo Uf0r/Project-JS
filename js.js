@@ -12,7 +12,8 @@ const png6 = document.getElementById("png6")
 const color = ['cyan', 'teal', 'gray' ,'pink', 'silver', 'emerald', 'purple', 'khaki', 'plum', 'kelly', 'forest', 'indigo', 'marine', 'amber', 'beige'];
 const buk = document.getElementById("buk")
 
-
+function rest(){
+     window.location.reload()}
 
 
 
@@ -96,6 +97,14 @@ button.addEventListener("click", function(e){
     
     console.log(word)
     input.focus()
+    
+    
+    if (longWord == 0){
+        PER1.innerHTML="Ты победил"
+        setInterval(rest,100)
+        
+        
+    }
     
     
             
