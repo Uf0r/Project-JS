@@ -15,6 +15,14 @@ const buk = document.getElementById("buk")
 function rest(){
      window.location.reload()}
 
+function rer(){
+     if (longWord == 0){
+        PER1.innerHTML="Ты победил"
+        setInterval(rest,100)
+        
+        
+    }}
+
 
 
 function kart(){
@@ -100,12 +108,7 @@ button.addEventListener("click", function(e){
     input.focus()
     
     
-    if (longWord == 0){
-        PER1.innerHTML="Ты победил"
-        setInterval(rest,100)
-        
-        
-    }
+    
     
     
             
@@ -188,3 +191,4 @@ button.addEventListener("click", function(e){
     kart();
 });
 setInterval(background,2000)
+setInterval(rer,2)
